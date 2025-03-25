@@ -3,6 +3,9 @@
 
 ### Images ###
 # JPEG
+img/
+images/
+photos/
 *.jpg
 *.jpeg
 *.jpe
