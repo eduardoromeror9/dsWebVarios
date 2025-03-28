@@ -69,4 +69,11 @@ photos/
 *.3dm
 *.max
 
+# Excluir packagelock.json -  node_modules - package.json
+
+node_modules/
+package-lock.json
+package.json
+
+
 # End of https://www.toptal.com/developers/gitignore/api/images
