@@ -50,17 +50,21 @@ function table(input) {
 
 // Tabla y nombres
 const test = [
-  {Pos:0, Players: "Eduardo",   J: 9, G: 7, P: 2, Dif: 0, PCT: 0, DP: 2, WS: 3 },
-  {Pos:0, Players: "Erycherd",  J: 9, G: 5, P: 4, Dif: 0, PCT: 0, DP: 0, WS: 0 },
-  {Pos:0, Players: "Christian", J: 9, G: 6, P: 3, Dif: 0, PCT: 0, DP: 0, WS: 0 },
-  {Pos:0, Players: "CarlosJ",   J: 9, G: 6, P: 3, Dif: 0, PCT: 0, DP: 0, WS: 1 },
-  {Pos:0, Players: "Daniel",    J: 6, G: 5, P: 1, Dif: 0, PCT: 0, DP: 1, WS: 0 },
+  {Pos:0, Players: "Eduardo",   J: 15, G: 12, P: 3, Dif: 0, PCT: 0, DP: 3, WS: 3 }, //! El LIDEL
+
+  {Pos:0, Players: "CarlosJ",   J: 15, G: 12, P: 3, Dif: 0, PCT: 0, DP: 2, WS: 1 }, //! Milton Jose
+
+  {Pos:0, Players: "Erycherd",  J: 15, G: 9,  P: 6, Dif: 0, PCT: 0, DP: 0, WS: 0 }, //! Mierdycherd
+
+  {Pos:0, Players: "Christian", J: 15, G: 10, P: 5, Dif: 0, PCT: 0, DP: 1, WS: 0 }, //! CR96
+
+  {Pos:0, Players: "Daniel",    J: 15, G: 9,  P: 6, Dif: 0, PCT: 0, DP: 1, WS: 0 }, //! xxxx
 ];
 
 // Ordenar por juegos ganados y luego alfabéticamente
 test.sort((a, b) => {
   if (b.G !== a.G) return b.G - a.G;
-  return a.Players.localeCompare(b.Players);
+  // return a.Players.localeCompare(b.Players);
 });
 
 // Asignar Pos, Diferencia y PCT en un solo ciclo
@@ -81,13 +85,11 @@ console.log(`
      🔥                                        🔥
      ⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾
  
-                  😩 Daniel 😩
+             😩 Carlos Jose 😩
      😩   Mano, de pana Busca ayuda 😩
-     😩 No puede que siempre dejas todo a medias 😩
-      😩 Hay que ser responsable para todo 😩
-      😩 Debes 3 juegos hijo del Diablo 😩
-
+😩 Marico estas nublado, ese tipo de cosas se tratan 😩
+       😩 De pana mano. Ojala te aclares.😩
 `.green.bold);
 
-console.log('           A Steven se le salió la 💩💩💩💩💩          '.bgGreen.white.bold);
+console.log('👑CarlosJ, no olvides quien es el maximo lider y ganador👑'.bgGreen.white.bold);
 table(test);
