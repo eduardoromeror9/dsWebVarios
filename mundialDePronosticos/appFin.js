@@ -50,15 +50,11 @@ function table(input) {
 
 // Tabla y nombres
 const test = [
-  {Pos:0, Players: "Eduardo",   J: 15, G: 12, P: 3, Dif: 0, PCT: 0, DP: 3, WS: 3 }, //! El LIDEL
-
-  {Pos:0, Players: "CarlosJ",   J: 15, G: 12, P: 3, Dif: 0, PCT: 0, DP: 2, WS: 1 }, //! Milton Jose
-
-  {Pos:0, Players: "Erycherd",  J: 15, G: 9,  P: 6, Dif: 0, PCT: 0, DP: 0, WS: 0 }, //! Mierdycherd
-
-  {Pos:0, Players: "Christian", J: 15, G: 10, P: 5, Dif: 0, PCT: 0, DP: 1, WS: 0 }, //! CR96
-
-  {Pos:0, Players: "Daniel",    J: 15, G: 9,  P: 6, Dif: 0, PCT: 0, DP: 1, WS: 0 }, //! xxxx
+  {Pos:0, Players: "Eduardo",   J: 18, G: 14,  P: 4, Dif: 0, PCT: 0, DP: 3, WS: 3 }, //! El LIDEL
+  {Pos:0, Players: "CarlosJ",   J: 18, G: 14,  P: 4, Dif: 0, PCT: 0, DP: 2, WS: 1 }, //! Milton Jose
+  {Pos:0, Players: "Erycherd",  J: 18, G: 12,  P: 6, Dif: 0, PCT: 0, DP: 1, WS: 0 }, //! Mierdycherd
+  {Pos:0, Players: "Christian", J: 18, G: 13,  P: 5, Dif: 0, PCT: 0, DP: 2, WS: 0 }, //! CR96
+  {Pos:0, Players: "Daniel",    J: 18, G: 11,  P: 7, Dif: 0, PCT: 0, DP: 1, WS: 0 }, //! xxxx
 ];
 
 // Ordenar por juegos ganados y luego alfabéticamente
@@ -77,17 +73,17 @@ test.forEach((element, index) => {
 // Mensajes
 console.log(`
            
-     ⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾
-     🔥                                        🔥
-     🔥    Mundial de pronósticos Temp 2025    🔥
-     🔥    Mundial de pronósticos Temp 2025    🔥  
-     🔥    Mundial de pronósticos Temp 2025    🔥  
-     🔥                                        🔥
-     ⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾
+      ⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾
+      🔥                                        🔥
+      🔥    Mundial de pronósticos Temp 2025    🔥
+      🔥    Mundial de pronósticos Temp 2025    🔥  
+      🔥    Mundial de pronósticos Temp 2025    🔥  
+      🔥                                        🔥
+      ⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾
  
              😩 Carlos Jose 😩
-     😩   Mano, de pana Busca ayuda 😩
-😩 Marico estas nublado, ese tipo de cosas se tratan 😩
+      😩   Mano, de pana Busca ayuda 😩
+  😩 Marico estas nublado, ese tipo de cosas se tratan 😩
        😩 De pana mano. Ojala te aclares.😩
 `.green.bold);
 
