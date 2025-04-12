@@ -50,11 +50,11 @@ function table(input) {
 
 // Tabla y nombres
 const test = [
-  {Pos:0, Players: "Eduardo",   J: 18, G: 14,  P: 4, Dif: 0, PCT: 0, DP: 3, WS: 3 }, //! El LIDEL
-  {Pos:0, Players: "CarlosJ",   J: 18, G: 14,  P: 4, Dif: 0, PCT: 0, DP: 2, WS: 1 }, //! Milton Jose
-  {Pos:0, Players: "Erycherd",  J: 18, G: 12,  P: 6, Dif: 0, PCT: 0, DP: 1, WS: 0 }, //! Mierdycherd
-  {Pos:0, Players: "Christian", J: 18, G: 13,  P: 5, Dif: 0, PCT: 0, DP: 2, WS: 0 }, //! CR96
-  {Pos:0, Players: "Daniel",    J: 18, G: 11,  P: 7, Dif: 0, PCT: 0, DP: 1, WS: 0 }, //! xxxx
+  {Pos:0, Players: "Eduardo",   J: 30, G: 19,  P: 8,  Dif: 0, PCT: 0, Titulos: 3 }, //! El LIDEL
+  {Pos:0, Players: "CarlosJ",   J: 30, G: 20,  P: 7,  Dif: 0, PCT: 0, Titulos: 1 }, //! Milton Jose
+  {Pos:0, Players: "Erycherd",  J: 30, G: 19,  P: 8,  Dif: 0, PCT: 0, Titulos: 0 }, //! Mierdycherd
+  {Pos:0, Players: "Christian", J: 30, G: 19,  P: 8,  Dif: 0, PCT: 0, Titulos: 0 }, //! CR96
+  {Pos:0, Players: "Daniel",    J: 30, G: 14,  P: 13, Dif: 0, PCT: 0, Titulos: 0 }, //! xxxx
 ];
 
 // Ordenar por juegos ganados y luego alfabéticamente
@@ -81,11 +81,12 @@ console.log(`
       🔥                                        🔥
       ⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾
  
-             😩 Carlos Jose 😩
+              😩 Carlos Jose 😩
       😩   Mano, de pana Busca ayuda 😩
-  😩 Marico estas nublado, ese tipo de cosas se tratan 😩
-       😩 De pana mano. Ojala te aclares.😩
-`.green.bold);
+ 😩 Marico estas nublado, ese tipo de cosas se tratan 😩
+        😩 De pana mano. Ojala te aclares.😩
+        😩 Y Aclara tambien lo de Kledy.😩
+`.white.bold);
 
-console.log('👑CarlosJ, no olvides quien es el maximo lider y ganador👑'.bgGreen.white.bold);
+console.log('      No olviden quien es el maximo lider y ganador👑     '.bgGreen.white.bold);
 table(test);
