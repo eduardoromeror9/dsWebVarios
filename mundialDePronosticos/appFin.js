@@ -50,17 +50,17 @@ function table(input) {
 
 // Tabla y nombres
 const test = [
-  {Pos:0, Players: "Eduardo",   J: 30, G: 19,  P: 8,  Dif: 0, PCT: 0, Titulos: 3 }, //! El LIDEL
-  {Pos:0, Players: "CarlosJ",   J: 30, G: 20,  P: 7,  Dif: 0, PCT: 0, Titulos: 1 }, //! Milton Jose
-  {Pos:0, Players: "Erycherd",  J: 30, G: 19,  P: 8,  Dif: 0, PCT: 0, Titulos: 0 }, //! Mierdycherd
-  {Pos:0, Players: "Christian", J: 30, G: 19,  P: 8,  Dif: 0, PCT: 0, Titulos: 0 }, //! CR96
-  {Pos:0, Players: "Daniel",    J: 30, G: 14,  P: 13, Dif: 0, PCT: 0, Titulos: 0 }, //! xxxx
+  {Pos:0, Players: "Erycherd",  J: 30, G: 21,  P: 9,  Dif: 0, PCT: 0, Titulos: 0 }, //! Mierdycherd
+  {Pos:0, Players: "CarlosJ",   J: 30, G: 21,  P: 9,  Dif: 0, PCT: 0, Titulos: 1 }, //! Milton Jose
+  {Pos:0, Players: "Eduardo",   J: 30, G: 19,  P: 11,  Dif: 0, PCT: 0, Titulos: 3 }, //! El LIDEL
+  {Pos:0, Players: "Christian", J: 30, G: 19,  P: 11,  Dif: 0, PCT: 0, Titulos: 0 }, //! CR96
+  {Pos:0, Players: "Daniel",    J: 30, G: 15,  P: 15, Dif: 0, PCT: 0, Titulos: 0 }, //! xxxx
 ];
 
 // Ordenar por juegos ganados y luego alfabéticamente
 test.sort((a, b) => {
   if (b.G !== a.G) return b.G - a.G;
-  // return a.Players.localeCompare(b.Players);
+  return a.Players.localeCompare(b.Players);
 });
 
 // Asignar Pos, Diferencia y PCT en un solo ciclo

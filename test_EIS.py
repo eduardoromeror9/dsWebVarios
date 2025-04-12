@@ -2,20 +2,106 @@ import subprocess
 import time
 
 
-def run_script():
-    for dia in range(1, 11):  # del 1 al 31
+import subprocess
+import time
+
+def carga_eis():
+    for dia in range(1,11):
         print(f"Ejecutando el día {dia}")
-
-        # subprocess.run(["perl", "cargar.pl", "-C1", "250301"])
-        print('subprocess.run(["perl", "cargar.pl", "-C1", "250301"])')
-
+        fecha = 250300 + dia
+        # subprocess.run(["perl", "cargar.pl", "-C1", str(fecha)])
+        print(f"Ejecutando: perl cargar.pl -C1 {fecha}")
         time.sleep(5)
-
+        # subprocess.run(["perl", "calcular.pl",str(fecha)])
+        print(f"Ejecutando: perl calcular.pl {fecha}")
+        time.sleep(5)
         print(f'Dia {dia} Finalizado')
         print('########################################')
+if __name__ == "__main__":
+    carga_eis()
 
-# if __name__ == "__main__":
-run_script()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# def run_script():
+#     for dia in range(1, 11):  # del 1 al 31
+#         print(f"Ejecutando el día {dia}")
+
+#         # subprocess.run(["perl", "cargar.pl", "-C1", "250301"])
+#         print('subprocess.run(["perl", "cargar.pl", "-C1", "250301"])')
+
+#         time.sleep(5)
+
+#         print(f'Dia {dia} Finalizado')
+#         print('########################################')
+
+# # if __name__ == "__main__":
+# run_script()
 
 
 
