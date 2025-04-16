@@ -50,11 +50,11 @@ function table(input) {
 
 // Tabla y nombres
 const test = [
-  {Pos:0, Players: "Erycherd",  J: 30, G: 21,  P: 9,  Dif: 0, PCT: 0, Titulos: 0 }, //! Mierdycherd
-  {Pos:0, Players: "CarlosJ",   J: 30, G: 21,  P: 9,  Dif: 0, PCT: 0, Titulos: 1 }, //! Milton Jose
-  {Pos:0, Players: "Eduardo",   J: 30, G: 19,  P: 11,  Dif: 0, PCT: 0, Titulos: 3 }, //! El LIDEL
-  {Pos:0, Players: "Christian", J: 30, G: 19,  P: 11,  Dif: 0, PCT: 0, Titulos: 0 }, //! CR96
-  {Pos:0, Players: "Daniel",    J: 30, G: 15,  P: 15, Dif: 0, PCT: 0, Titulos: 0 }, //! xxxx
+  {Pos:0, Players: "Erycherd",  J: 36, G: 24,  P: 12,  Dif: 0, PCT: 0, Titulos: 0 }, //! Mierdycherd
+  {Pos:0, Players: "Eduardo",   J: 36, G: 23,  P: 13,  Dif: 0, PCT: 0, Titulos: 3 }, //! El LIDEL
+  {Pos:0, Players: "Christian", J: 36, G: 23,  P: 13,  Dif: 0, PCT: 0, Titulos: 0 }, //! CR96
+  {Pos:0, Players: "Daniel",    J: 36, G: 18,  P: 18, Dif: 0, PCT: 0, Titulos: 0 }, //! xxxx
+  // {Pos:0, Players: "CarlosJ",   J: 33, G: 23,  P: 10,  Dif: 0, PCT: 0, Titulos: 1 }, //! Milton Jose
 ];
 
 // Ordenar por juegos ganados y luego alfabéticamente
@@ -86,6 +86,7 @@ console.log(`
  😩 Marico estas nublado, ese tipo de cosas se tratan 😩
         😩 De pana mano. Ojala te aclares.😩
         😩 Y Aclara tambien lo de Kledy.😩
+      😩 Kledy Mijo lanzate, deja el miedo.😩
 `.white.bold);
 
 console.log('      No olviden quien es el maximo lider y ganador👑     '.bgGreen.white.bold);
