@@ -50,17 +50,18 @@ function table(input) {
 
 // Tabla y nombres
 const test = [
-  {Pos:0, Players: "Erycherd",  J: 36, G: 24,  P: 12,  Dif: 0, PCT: 0, Titulos: 0 }, //! Mierdycherd
-  {Pos:0, Players: "Eduardo",   J: 36, G: 23,  P: 13,  Dif: 0, PCT: 0, Titulos: 3 }, //! El LIDEL
-  {Pos:0, Players: "Christian", J: 36, G: 23,  P: 13,  Dif: 0, PCT: 0, Titulos: 0 }, //! CR96
-  {Pos:0, Players: "Daniel",    J: 36, G: 18,  P: 18, Dif: 0, PCT: 0, Titulos: 0 }, //! xxxx
+  {Pos:0, Players: "Erycherd",  J: 42, G: 29,  P: 13,  Dif: 0, PCT: 0, Titulos: 0 }, //! Mierdycherd
+  {Pos:0, Players: "Eduardo",   J: 42, G: 28,  P: 14,  Dif: 0, PCT: 0, Titulos: 3 }, //! El LIDEL
+  {Pos:0, Players: "Christian", J: 42, G: 28,  P: 14,  Dif: 0, PCT: 0, Titulos: 0 }, //! CR96
+  {Pos:0, Players: "Daniel",    J: 42, G: 23,  P: 19,  Dif: 0, PCT: 0, Titulos: 0 }, //! xxxx
+  {Pos:0, Players: "Kleydi",    J: 3,  G: 1,   P: 2,   Dif: 0, PCT: 0, Titulos: 0 }, //! xxxx
   // {Pos:0, Players: "CarlosJ",   J: 33, G: 23,  P: 10,  Dif: 0, PCT: 0, Titulos: 1 }, //! Milton Jose
 ];
 
 // Ordenar por juegos ganados y luego alfabéticamente
 test.sort((a, b) => {
   if (b.G !== a.G) return b.G - a.G;
-  return a.Players.localeCompare(b.Players);
+  // return a.Players.localeCompare(b.Players);
 });
 
 // Asignar Pos, Diferencia y PCT en un solo ciclo
@@ -81,12 +82,10 @@ console.log(`
       🔥                                        🔥
       ⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾⚾
  
-              😩 Carlos Jose 😩
-      😩   Mano, de pana Busca ayuda 😩
- 😩 Marico estas nublado, ese tipo de cosas se tratan 😩
-        😩 De pana mano. Ojala te aclares.😩
-        😩 Y Aclara tambien lo de Kledy.😩
-      😩 Kledy Mijo lanzate, deja el miedo.😩
+          🔥 Copa "El Regreso de Kleydi 🔥
+          🔥 Y la salida de Milton estafa" 🔥
+      😩 Ya lo de Daniel es caso de estudio.😩
+            😩 Nunca termina las cosas 😩
 `.white.bold);
 
 console.log('      No olviden quien es el maximo lider y ganador👑     '.bgGreen.white.bold);
