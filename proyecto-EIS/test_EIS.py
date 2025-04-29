@@ -6,7 +6,7 @@ import subprocess
 import time
 
 def carga_eis():
-    for dia in range(1,11):
+    for dia in range(1,6):
         print(f"Ejecutando el día {dia}")
         fecha = 250300 + dia
         # subprocess.run(["perl", "cargar.pl", "-C1", str(fecha)])
