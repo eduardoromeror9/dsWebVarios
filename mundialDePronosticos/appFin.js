@@ -50,13 +50,54 @@ function table(input) {
 
 // Tabla y nombres
 const test = [
-  {Pos:0, Players: "Eduardo",   J: 78, G: 51,  P: 27,  Dif: 0, PCT: 0, Titulos: 3 }, //! El LIDEL
-  {Pos:0, Players: "Christian", J: 78, G: 53,  P: 25,  Dif: 0, PCT: 0, Titulos: 0 }, //! CR96
-  {Pos:0, Players: "Erycherd",  J: 78, G: 46,  P: 32,  Dif: 0, PCT: 0, Titulos: 0 }, //! Mierdycherd
+  {Pos:0, Players: "Eduardo",   J: 86, G: 57,  P: 29,  Dif: 0, PCT: 0, Titulos: 3 }, //! El LIDEL
+  {Pos:0, Players: "Christian", J: 93, G: 62,  P: 31,  Dif: 0, PCT: 0, Titulos: 0 }, //! CR96
+  {Pos:0, Players: "Erycherd",  J: 89, G: 53,  P: 36,  Dif: 0, PCT: 0, Titulos: 0 }, //! Mierdycherd
   {Pos:0, Players: "Daniel",    J: 78, G: 45,  P: 33,  Dif: 0, PCT: 0, Titulos: 0 }, //! xxxx
-  {Pos:0, Players: "Kleydi",    J: 78, G: 42,  P: 36,  Dif: 0, PCT: 0, Titulos: 0 }, //! xxxx
+  {Pos:0, Players: "Kleydi",    J: 93, G: 51,  P: 42,  Dif: 0, PCT: 0, Titulos: 0 }, //! xxxx
   // {Pos:0, Players: "CarlosJ",   J: 33, G: 23,  P: 10,  Dif: 0, PCT: 0, Titulos: 1 }, //! Milton Jose
 ];
+
+//! 14 de mayo
+//! ercycherd = 3-1
+//! Kleydi 3-2
+//! cr96 3-1
+//! daniel debe 3
+
+
+//? 16 de mayo
+//? el king = 6-4
+//? cr96 = 3-3
+//? erycherd = 3-2
+//? kleydi = 3-0
+//? daniel debe 3
+
+
+//* 18 de mayo
+//* cr96 = 3-2
+//* erycherd = 3-2
+//* kleydi = 3-3
+//* el king debe 3
+//* daniel debe 3
+
+
+
+//! lunes 19 de mayo
+//! Kleydi 3-1
+//! cr96 3-3
+//! el king debe 3
+//! erycherd debe 3
+//! daniel debe 3
+
+
+//? miercoles 21 de mayo
+//? el king = 2-1 debe 1 
+//? cr96 = 3-1
+//? erycherd = 2-2 debe 1
+//? kleydi = 3-1
+//? daniel debe 3
+
+
 
 // Ordenar por juegos ganados y luego alfabéticamente
 test.sort((a, b) => {
