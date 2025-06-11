@@ -9,5 +9,5 @@
 
 
 ## Blog Personal
-####  [Visita la Web!!](https://google.com//)
+####  [Visita la Web!!](https://blog-cursos-eduardor9.netlify.app//)
 
