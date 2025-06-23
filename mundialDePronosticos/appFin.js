@@ -50,11 +50,11 @@ function table(input) {
 
 // Tabla y nombres
 const test = [
-  {Pos:0, Players: "Eduardo",   J: 134, G: 89,  P: 45,  Dif: 0, PCT: 0, Titulos: 3 }, //! El LIDEL
-  {Pos:0, Players: "Christian", J: 125, G: 78,  P: 47,  Dif: 0, PCT: 0, Titulos: 0 }, //! CR96
-  {Pos:0, Players: "Erycherd",  J: 134, G: 74,  P: 60,  Dif: 0, PCT: 0, Titulos: 0 }, //! Mierdycherd
-  {Pos:0, Players: "Daniel",    J: 134, G: 78,  P: 56,  Dif: 0, PCT: 0, Titulos: 0 }, //! xxxx
-  {Pos:0, Players: "Kleydi",    J: 134, G: 74,  P: 60,  Dif: 0, PCT: 0, Titulos: 0 }, //! xxxx
+  {Pos:0, Players: "Eduardo",   J: 140, G: 91,  P: 49,  Dif: 0, PCT: 0, Titulos: 3 }, //! El LIDEL
+  {Pos:0, Players: "Christian", J: 140, G: 83,  P: 57,  Dif: 0, PCT: 0, Titulos: 0 }, //! CR96
+  {Pos:0, Players: "Daniel",    J: 140, G: 80,  P: 60,  Dif: 0, PCT: 0, Titulos: 0 }, //! xxxx
+  {Pos:0, Players: "Erycherd",  J: 140, G: 78,  P: 62,  Dif: 0, PCT: 0, Titulos: 0 }, //! Mierdycherd
+  {Pos:0, Players: "Kleydi",    J: 140, G: 78,  P: 62,  Dif: 0, PCT: 0, Titulos: 0 }, //! xxxx
   // {Pos:0, Players: "CarlosJ",   J: 33, G: 23,  P: 10,  Dif: 0, PCT: 0, Titulos: 1 }, //! Milton Jose
 ];
 
