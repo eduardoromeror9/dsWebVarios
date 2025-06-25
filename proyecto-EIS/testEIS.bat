@@ -1,5 +1,5 @@
 REM Author: Eduardo Romero
-REM Date: 2025-04-01
+REM Date: 2025-02-01
 REM Description: Script para ejecutar carga y calculo de datos en Perl
 REM Este script ejecuta un ciclo que va del 1 al 31 (puede ser el mes y dia que necesites)
 

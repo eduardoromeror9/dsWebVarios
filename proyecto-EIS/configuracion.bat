@@ -8,6 +8,3 @@ set DIA_FIN=21
 set TIEMPO_ESPERA=30
 
 REM ####################################
-
-
-
