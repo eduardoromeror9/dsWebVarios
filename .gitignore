@@ -395,6 +395,9 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 
+# Omitir todo lo que este en la carpeta dataBases
+dataBases/
+
 # End of https://www.toptal.com/developers/gitignore/api/python
 # End of https://www.toptal.com/developers/gitignore/api/node
 # End of https://www.toptal.com/developers/gitignore/api/images
